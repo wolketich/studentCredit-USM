@@ -1,0 +1,104 @@
+﻿   html {
+
+	height: 100%;
+
+}
+    body{
+	background: #eee;
+	font-size: 12px;
+	font-family: Verdana, Geneva, sans-serif;
+	
+	margin:0px;
+	height:100%;
+   }
+a{
+	text-decoration: none;
+	color: #333333;
+	outline: none;
+}
+h1{
+	font-size: 20px;
+}
+h2{
+	font-size: 16px;
+}
+
+.container{
+	
+	width: 980px;
+	margin: 0 auto;
+	height:100%;
+	
+	
+	
+	
+}
+div.login_form_users{
+	width: 300px;
+	height: 300px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 20px;
+	
+}
+
+div.login_form_users>h2{
+	font-size: 18px;
+	text-shadow: 0px 2px 0px rgba(0,0,0,0.2);
+	color:black;
+	margin: 10px;
+	text-align: center;
+}
+div.login_form_users form{
+	padding: 0px 20px;
+}
+div.login_form_users form p{
+	overflow: hidden;
+	padding: 2px 0px;
+}
+div.login_form_users form p label{
+	float: left;
+	padding: 3px;
+	font-weight: 900;
+	font-size: 12px;
+	width:200px;
+	color: rgba(0,0,0,0.7);
+	text-shadow: 0px 1px 0px rgba(255,255,255,0.3);
+}
+div.login_form_users form p input{
+	float: left;
+	padding: 3px;
+	width: 245px;
+	height: 20px;
+	border: 1px solid rgba(0,0,0,0.6);
+	
+}
+div.login_form_users form p input[type=checkbox]{
+	width:20px;
+	padding: none;
+	height:15px;
+	
+}
+div.login_form_users form p input[type=submit]{
+	width:130px;
+	padding: none;
+	height:30px;
+	background: rgba(255,255,255,0.5);
+	font-weight: 900;
+	font-size: 14px;
+	margin-right: 10px;
+	box-shadow: inset 0px -5px 5px rgba(0,0,0,0.2),0px 5px 5px -3px rgba(0,0,0,0.2);
+	cursor: pointer;
+}
+div.login_form_users form p input[type=submit]:hover{
+	box-shadow: inset 0px 5px 5px rgba(0,0,0,0.2),0px 5px 5px -3px rgba(0,0,0,0.2);
+}
+div.login_form_users form p a{
+	line-height: 45px;
+	color: #aaaaaa;
+}
+tr.hd
+{background-color:#ccc;
+}
+
+

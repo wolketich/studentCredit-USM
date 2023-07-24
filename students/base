@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>
+	Student info
+</title><link rel="stylesheet" type="text/css" href="../assets/BaseStyle.css"><link href="../assets/bootstrap.min.css" rel="stylesheet">
+     <style type="text/css">
+         body
+         {font-family:Arial;
+          margin-left: 10px;
+          margin-top:15px;
+          font-size:14px;
+         }
+         .redNota {color:Red;}
+         .greyrow {background-color:#D5D5D5;font-weight:bold;}
+          .greyrow1 {background-color:#aaa;font-weight:bold;}
+     #divPerson
+     {width:500px;
+      font-size:10px;
+     }
+    .left
+    {
+    background-color:LightGrey;font-weight:bold; 
+    }
+    
+    .qqqb
+    { background-color:#3B5E84;font-weight:bold; 
+      font-size:14px;
+      color:White;
+      
+    }
+    
+    
+      .qqqb1
+    { background-color:#456D98;font-weight:bold; 
+      font-size:14px;
+      color:White;
+      
+    }
+    .clrechizit 
+    {font-style:italic;
+     color:Maroon;
+    }
+    
+    .persInfo
+    {width:100%;
+     font-size:14px;
+     font-family:Arial;}
+    .persInfo,.tbOrders 
+    { border: 1px solid #aaa;
+      border-collapse:collapse;
+            
+    }
+    .td1 {width:30%;}
+    .td2 {width:30%}
+    .td3 {width:30%}
+   .tbOrders  td {padding: 5px;
+                  border: 1px solid #888; 
+                  font-size:13px;
+                  font-family:Arial;}
+    </style>
+</head>
+<body>
+<div class="container">
+<form method="post" action="" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTU4NTExOTU2Ng8WCB4DTnpjBQYyMjQzOTUeBGN1cnMFATIeA290ZAUBMR4DYmFjBQFCFgICAw9kFggCAw8PFgIeBFRleHRlZGQCBQ8WAh4JaW5uZXJodG1sBYwCPHRhYmxlIGJvcmRlcj0xIGNsYXNzPSdwZXJzSW5mbyB0YWJsZSc+PHRyIGNsYXNzPSdncmV5cm93Jz48dGQ+TnVtZWxlPC90ZD48dGQ+RmFjdWx0YXRlYTwvdGQ+PHRkPnNwZWM8L3RkPjx0ZD5GcmVjdmVudGE8L3RkPjwvdHI+PHRyPjx0ZCBjbGFzcz0ndGQxJz5Db2pvY2FyaSBWaWN0b3I8L3RkPjx0ZCBjbGFzcz0ndGQyJz5EcmVwdDwvdGQ+PHRkIGNsYXNzPSd0ZDMnPkRyZXB0PC90ZD48dGQgY2xhc3M9J3RkNCc+U3R1ZGlpIFpJPC90ZD48L3RyPjwvdGFibGU+PGJyPmQCDQ8WAh8FBSY8dGFibGUgY2xhc3M9J3RhYmxlIHRhYmxlLXNtJz48L3RhYmxlPmQCDw8WAh8FBaQCPHRhYmxlIGNsYXNzPSd0YWJsZSB0YWJsZS1zbSc+PHRyPjx0aCBjbGFzcz0nY29sLTYnPjwvdGg+IDx0aCBjbGFzcz0nY29sLTYnPjwvdGg+PC90cj48dHI+PHRkIGNvbHNwYW49JzInPjxoNj5zZW1lc3RydSAwNTwvaDY+IDwvdGQ+IDwvdHI+PC90YWJsZT48dGFibGUgY2xhc3M9J3RhYmxlIHRhYmxlLXNtJz48dHI+PHRoIGNsYXNzPSdjb2wtNic+PC90aD4gPHRoIGNsYXNzPSdjb2wtNic+PC90aD48L3RyPjx0cj48dGQgY29sc3Bhbj0nMic+PGg2PnNlbWVzdHJ1IDA2PC9oNj4gPC90ZD4gPC90cj48L3RhYmxlPmRkusymchYxwIGdqAcbIBpmSc6ZzytHl9yJD7uaxwZbTRY=">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="71899280">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWAgLtn6vJBALyzqPBBLezOiAQ7B5+tdNHQKcoS5hnJEiZqk5qshg36zBj455C">
+</div>
+<div style="text-align:right;border-bottom:solid 3px gray; padding-top:5px;padding-bottom:5px">
+        <a id="lnExit" href="../">Ieshire</a>
+  </div>
+<nav>
+  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+    <a class="nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Home</a>
+    <a class="nav-link" id="nav-ferq-tab" data-toggle="tab" href="#nav-freq" role="tab" aria-controls="nav-freq" aria-selected="false">Evidenta frecventei(semestr. curent)</a>
+    <a class="nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Evaluare</a>
+  </div>
+</nav>
+<div class="tab-content" id="nav-tabContent">
+
+  <div class="tab-pane fade active show" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+  
+  
+  
+
+  <div style="background:white;  min-height:100%; padding-left: 20px">
+    
+     
+        <span id="lbErr"></span><br>
+        <div id="divPerson"><table border="1" class="persInfo table"><tbody><tr class="greyrow"><td>Numele</td><td>Facultatea</td><td>spec</td><td>Frecventa</td></tr><tr><td class="td1">Cojocari Victor</td><td class="td2">Drept</td><td class="td3">Drept</td><td class="td4">Studii ZI</td></tr></tbody></table><br></div>
+       <div>
+       Ordine
+       <table style="font-size:medium" class="tbOrders">
+        <tbody><tr class="qqqb">
+        
+        <td>Nr. ordin </td>
+        <td>Data</td>
+        <td>Continut</td>
+        <td>Remarka</td>
+              </tr>
+        
+       <tr> <td>225-st</td><td>20-08-2021</td><td>Inmatriculat in anul I Admitere </td><td></td></tr>
+       
+       <tr> <td>287-st</td><td>06-10-2022</td><td>Exmatriculat Pentru restante academice </td><td></td></tr>
+       
+        </tbody></table>
+        
+       </div>
+       <p></p><hr><p></p>
+   <div>
+         <p><span id="lbFirstLearn"></span> </p>
+      
+        &nbsp;
+        <div id="divNoteStud"><table><tbody><tr><td class="qqqb">&nbsp;</td><td colspan="1" class="qqqb">Sem-ru</td><td class="qqqb">Denumirea disciplinei</td><td class="qqqb">Exam/Col.</td><td class="qqqb">Nota</td><td class="qqqb">ECTS</td><td class="qqqb">Credite</td><td class="qqqb">An</td></tr><tr><td colspan="1">&nbsp;</td><td>&nbsp;</td><td colspan="1">&nbsp;</td><td colspan="1">&nbsp;</td><td colspan="1">&nbsp;</td></tr><tr class="qqqb1"><td colspan="8"><span> Studii ZI</span> </td> </tr><tr class=""><td><span> 1</span> </td> <td><span>03</span></td><td><span class=" &lt;/td">Drept constitutional si institutii politice (partea I)</span></td><td><span>Examen</span></td><td><span class=" "> 10</span></td><td></td><td>6</td><td>2021/22</td></tr><tr class=""><td><span> 2</span> </td> <td><span>03</span></td><td><span class=" &lt;/td">Drept privat roman</span></td><td><span>Examen</span></td><td><span class=" "> 10</span></td><td></td><td>6</td><td>2021/22</td></tr><tr class=""><td><span> 3</span> </td> <td><span>03</span></td><td><span class="&lt;/td">Educatia fizica</span></td><td><span>Colocviu</span></td><td><span class="">admis</span></td><td></td><td>0</td><td>2021/22</td></tr><tr class=""><td><span> 4</span> </td> <td><span>03</span></td><td><span class="&lt;/td">Organizarea profesiilor juridice</span></td><td><span>Examen</span></td><td><span class="">8</span></td><td>C</td><td>4</td><td>2021/22</td></tr><tr class=""><td><span> 5</span> </td> <td><span>03</span></td><td><span class="&lt;/td">Politologia</span></td><td><span>Examen</span></td><td><span class="">6.6</span></td><td>D</td><td>4</td><td>2021/22</td></tr><tr class=""><td><span> 6</span> </td> <td><span>03</span></td><td><span class="&lt;/td">Tehnologii informationale de comunicare</span></td><td><span>Examen</span></td><td><span class="">7</span></td><td>D</td><td>4</td><td>2021/22</td></tr><tr class=""><td><span> 7</span> </td> <td><span>03</span></td><td><span class=" &lt;/td">Teoria generala a dreptului</span></td><td><span>Examen</span></td><td><span class=" "> 10</span></td><td></td><td>6</td><td>2021/22</td></tr><tr class="greyrow"><td colspan="4">Media</td><td><span> </span> </td> <td></td><td><span>12</span></td><td></td></tr><tr class=""><td><span> 1</span> </td> <td><span>04</span></td><td><span class=" &lt;/td">Drept administrativ</span></td><td><span>Examen</span></td><td><span class=" ">n/p</span></td><td></td><td>5</td><td>2021/22</td></tr><tr class=""><td><span> 2</span> </td> <td><span>04</span></td><td><span class=" &lt;/td">Drept civil. Partea generala. Pers. fizica. Pers. juridica</span></td><td><span>Examen</span></td><td><span class=" "> 10</span></td><td></td><td>6</td><td>2021/22</td></tr><tr class=""><td><span> 3</span> </td> <td><span>04</span></td><td><span class=" &lt;/td">Drept constitutional si institutii politice (partea II)</span></td><td><span>Examen</span></td><td><span class=" "> 10</span></td><td></td><td>5</td><td>2021/22</td></tr><tr class=""><td><span> 4</span> </td> <td><span>04</span></td><td><span class="&lt;/td">Educatia fizica</span></td><td><span>Colocviu</span></td><td><span class="">admis</span></td><td></td><td>0</td><td>2021/22</td></tr><tr class=""><td><span> 5</span> </td> <td><span>04</span></td><td><span class=" &lt;/td">Integrare europeana</span></td><td><span>Examen</span></td><td><span class=" "> 10</span></td><td></td><td>4</td><td>2021/22</td></tr><tr class=""><td><span> 6</span> </td> <td><span>04</span></td><td><span class=" &lt;/td">Istoria dreptului romanesc</span></td><td><span>Examen</span></td><td><span class=" "> 10</span></td><td></td><td>4</td><td>2021/22</td></tr><tr class=""><td><span> 7</span> </td> <td><span>04</span></td><td><span class=" &lt;/td">Limba straina</span></td><td><span>Examen</span></td><td><span class=" "> 10</span></td><td></td><td>4</td><td>2021/22</td></tr><tr class=""><td><span> 8</span> </td> <td><span>04</span></td><td><span class=" &lt;/td">Practica de initiere in specialitate</span></td><td><span>Examen</span></td><td><span class=" ">n/p</span></td><td></td><td>2</td><td>2021/22</td></tr><tr class="greyrow"><td colspan="4">Media</td><td><span> </span> </td> <td></td><td><span></span></td><td></td></tr><tr class="greyrow1"><td colspan="4">Media An</td><td><span> </span> </td> <td><span></span></td><td><span>12</span></td><td></td></tr><tr class="greyrow1"><td colspan="6">Total Credite</td><td><span> 60</span> </td> <td><span></span></td></tr></tbody></table><div></div></div>
+     </div>
+ </div>
+  ...</div> <!-- home tab -->
+     <div class="tab-pane fade" id="nav-freq" role="tabpanel" aria-labelledby="nav-freq-tab">
+     <div id="divNoteBysemest"><table class="table table-sm"></table></div>
+    
+    <hr class="mt-5">
+    
+  
+         
+           
+     </div>   <!-- freq tab -->   
+     
+    
+   <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+    <div id="divEvaluareCur"><table class="table table-sm"><tbody><tr><th class="col-6"></th> <th class="col-6"></th></tr><tr><td colspan="2"><h6>semestru 05</h6> </td> </tr></tbody></table><table class="table table-sm"><tbody><tr><th class="col-6"></th> <th class="col-6"></th></tr><tr><td colspan="2"><h6>semestru 06</h6> </td> </tr></tbody></table></div>
+   </div>
+    </div> <!-- tab content-->
+    
+   
+   </form>
+ </div>  <!--container -->
+ <script src="../assets/jquery.min.js.download"></script>
+   
+<script src="../assets/bootstrap.bundle.min.js.download"></script>
+
+
+</body></html>

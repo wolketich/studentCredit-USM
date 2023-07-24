@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>	USM</title>
+
+<link rel="stylesheet" type="text/css" href="http://s-usm.md/assets/BaseStyle.css"> 
+
+<script type="text/javascript" src="http://s-usm.md/assets/jquery-1.11.3.min.js.download"></script> 
+
+</head>
+<body>
+ <div class="container"> 
+
+  <div class="header" style="height:120px; width:100%; margin:0; padding:0px; ">
+       <div style="width: 120px;height: 120px;position: absolute;margin: 00px 0px 0px 180px;">
+       <img src="http://s-usm.md/img/usm-logo.png"> 
+      </div>
+     <div style="position: absolute; margin: 30px 0px 0px 280px;"><h1>Universitatea  de Stat din Moldova</h1>
+     <h2 style="text-align:center">Situatia academica</h2>
+     </div>
+  </div>
+<div style="opacity:0.8; overflow:hidden;height: 300px;position: absolute;width:600px; margin: 30px 0px 20px 330px"> 
+  <img src="http://s-usm.md/img/usm-presentation2.jpg"> </div>
+  
+  
+   <div class="login_form_users">
+       <h2>Authorization</h2>
+		<form method="post" onclick="redirect()" id="formLogin" novalidate="novalidate">
+
+		 <span id="lbErr" style="color:Red;">{{error_message}}</span>
+	
+		<p>
+		<label for="txtCodperson">Introduceti Cod Personal </label>
+	    <input name="txtCodperson" type="text" id="txtCodperson" required="true" digits="true" aria-required="true">
+		</p>
+						
+		<p>
+		<input name="btLogin" type="submit" id="btLogin" value="Login" onclick="redirect()">
+		</p>
+		 
+         	
+    	</form>
+		</div>
+
+</div>
+</body>
+</html>
